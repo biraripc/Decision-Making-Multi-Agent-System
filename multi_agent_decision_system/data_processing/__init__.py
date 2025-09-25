@@ -1,5 +1,10 @@
 """
-Data processing modules for file ingestion and vector operations.
+Data processing module for the multi-agent decision system.
 
-Handles file parsing, embedding generation, and vector database operations.
+This module contains data models and processing utilities for handling
+documents, options, analyses, and recommendations.
 """
+
+from .models import Document, Option, Analysis, Recommendation
+
+__all__ = ['Document', 'Option', 'Analysis', 'Recommendation']
