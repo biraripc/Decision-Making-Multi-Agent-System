@@ -41,6 +41,8 @@ cp .env.example .env
 # - Hugging Face - Free tier available
 ```
 
+**⚠️ Security Note:** Never commit your actual API keys to version control. The `.env` file is already included in `.gitignore` to prevent accidental commits.
+
 ### 3. Run the Application
 
 **Web Interface:**
