@@ -1,6 +1,4 @@
-"""
-Setup script for the Multi-Agent Decision System.
-"""
+"""Setup script for the multi-agent decision system."""
 
 from setuptools import setup, find_packages
 
@@ -13,8 +11,8 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 setup(
     name="multi-agent-decision-system",
     version="0.1.0",
-    author="Pranav Birari",
-    description="A multi-agent decision-making system using LangChain and LangGraph",
+    author="Multi-Agent Decision System Team",
+    description="A sophisticated decision-making system using multiple AI agents",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=find_packages(),
@@ -24,15 +22,13 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.9",
-        "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
     ],
-    python_requires=">=3.9",
+    python_requires=">=3.11",
     install_requires=requirements,
     entry_points={
         "console_scripts": [
-            "mads-cli=multi_agent_decision_system.interfaces.cli:main",
+            "multi-agent-decision=main:main",
         ],
     },
 )

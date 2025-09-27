@@ -1,101 +1,77 @@
-# Multi-Agent Decision-Making System
+# Multi-Agent Decision System
 
-A modular decision support system that uses three specialized AI agents to help users make informed choices from their data. Built with LangChain, LangGraph, and open-source ML tools.
-
-## Features
-
-- **Option Finder Agent**: Semantic search through uploaded data using vector embeddings
-- **Pros/Cons Agent**: LLM-powered analysis of options with structured summaries  
-- **Decision Agent**: Multi-criteria evaluation and ranked recommendations
-- **Free & Open Source**: Uses only free LLM APIs and open-source tools
-- **Multiple Interfaces**: Streamlit web app and CLI support
-
-## Quick Start
-
-### 1. Setup Environment
-
-```bash
-# Create virtual environment
-python -m venv venv
-
-# Activate virtual environment
-# On Windows:
-venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### 2. Configure API Keys
-
-```bash
-# Copy example environment file
-cp .env.example .env
-
-# Edit .env file with your API keys
-# At least one LLM provider key is required:
-# - Google AI Studio (Gemini) - Free tier available
-# - Groq (Llama 3.3) - Free tier available  
-# - Hugging Face - Free tier available
-```
-
-**⚠️ Security Note:** Never commit your actual API keys to version control. The `.env` file is already included in `.gitignore` to prevent accidental commits.
-
-### 3. Run the Application
-
-**Web Interface:**
-```bash
-streamlit run multi_agent_decision_system/interfaces/streamlit_app.py
-```
-
-**CLI Interface:**
-```bash
-python -m multi_agent_decision_system.interfaces.cli --help
-```
+A sophisticated decision-making system that leverages multiple AI agents to analyze data, evaluate options, and provide ranked recommendations using LangChain, LangGraph, FAISS, and Google Gemini.
 
 ## Project Structure
 
 ```
-multi_agent_decision_system/
-├── agents/              # Specialized AI agents
-├── data_processing/     # File parsing and embeddings
-├── workflow/           # LangGraph orchestration
-├── interfaces/         # Web and CLI interfaces
-├── config/            # Settings and API key management
-└── utils/             # Common utilities and data models
+multi-agent-decision-system/
+├── agents/                 # Agent implementations
+├── data_processing/        # Data processing utilities
+├── ui/                    # Streamlit UI components
+├── config/                # Configuration management
+├── tests/                 # Test suite
+├── data/                  # Data storage (created at runtime)
+│   ├── uploads/          # Uploaded files
+│   └── faiss_index/      # FAISS vector indices
+├── logs/                  # Application logs (created at runtime)
+├── main.py               # Main application entry point
+├── requirements.txt      # Python dependencies
+├── .env.example         # Environment variables template
+└── README.md            # This file
 ```
 
-## Supported File Types
+## Setup
 
-- **CSV**: Structured data with headers
-- **JSON**: Nested data structures
-- **TXT**: Plain text documents
+1. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## Requirements
+2. **Configure Environment**
+   ```bash
+   cp .env.example .env
+   # Edit .env and add your Google API key
+   ```
 
-- Python 3.9+
-- At least one LLM API key (Google AI Studio, Groq, or Hugging Face)
-- 4GB+ RAM for vector embeddings
-- Internet connection for LLM APIs
+3. **Initialize Application**
+   ```bash
+   python main.py
+   ```
+
+4. **Start UI**
+   ```bash
+   streamlit run ui/app.py
+   ```
+
+## Configuration
+
+The system uses environment variables for configuration. See `.env.example` for all available options.
+
+Required:
+- `GOOGLE_API_KEY`: Your Google AI Studio API key
+
+## Architecture
+
+The system consists of three main agents orchestrated through LangGraph:
+
+1. **Option Finder Agent**: Performs semantic search to find relevant options
+2. **Pros/Cons Agent**: Analyzes advantages and disadvantages of each option
+3. **Decision Agent**: Ranks options and provides final recommendations
 
 ## Development
 
+Run tests:
 ```bash
-# Install in development mode
-pip install -e .
-
-# Run tests
 pytest
-
-# Format code
-black multi_agent_decision_system/
-
-# Lint code
-flake8 multi_agent_decision_system/
 ```
 
-## License
+Code formatting:
+```bash
+black .
+```
 
-MIT License - see LICENSE file for details.
+Type checking:
+```bash
+mypy .
+```

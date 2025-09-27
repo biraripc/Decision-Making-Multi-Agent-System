@@ -1,3 +1,1 @@
-"""
-Test suite for the multi-agent decision system.
-"""
+# Multi-agent decision system - Test suite
