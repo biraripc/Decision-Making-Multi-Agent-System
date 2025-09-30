@@ -1,0 +1,11 @@
+description,price,brand,category,rating,specs
+"MacBook Air M2 with 8GB RAM, 256GB SSD, excellent battery life, lightweight design, perfect for students and professionals",1199,Apple,ultrabook,4.8,"M2 chip, 8GB RAM, 256GB SSD, 13.6 inch"
+"Dell XPS 13 with Intel i7, 16GB RAM, 512GB SSD, premium build quality, great for business use",1399,Dell,ultrabook,4.6,"Intel i7, 16GB RAM, 512GB SSD, 13.4 inch"
+"ThinkPad X1 Carbon with Intel i5, 8GB RAM, 256GB SSD, legendary keyboard, enterprise security features",1299,Lenovo,business,4.7,"Intel i5, 8GB RAM, 256GB SSD, 14 inch"
+"ASUS ROG Strix with RTX 4060, AMD Ryzen 7, 16GB RAM, 1TB SSD, high refresh rate display, gaming powerhouse",1599,ASUS,gaming,4.5,"AMD Ryzen 7, RTX 4060, 16GB RAM, 1TB SSD, 15.6 inch"
+"HP Pavilion with Intel i5, 8GB RAM, 512GB SSD, good all-around performance, budget-friendly option",699,HP,budget,4.2,"Intel i5, 8GB RAM, 512GB SSD, 15.6 inch"
+"Surface Laptop 5 with Intel i7, 16GB RAM, 512GB SSD, touchscreen, premium design, great for creative work",1699,Microsoft,premium,4.4,"Intel i7, 16GB RAM, 512GB SSD, 13.5 inch touchscreen"
+"Acer Aspire 5 with AMD Ryzen 5, 8GB RAM, 256GB SSD, solid performance for everyday tasks, very affordable",549,Acer,budget,4.0,"AMD Ryzen 5, 8GB RAM, 256GB SSD, 15.6 inch"
+"MacBook Pro 14 with M3 Pro chip, 18GB RAM, 512GB SSD, professional video editing capabilities, excellent display",1999,Apple,professional,4.9,"M3 Pro chip, 18GB RAM, 512GB SSD, 14.2 inch Liquid Retina XDR"
+"Framework Laptop with Intel i5, 16GB RAM, 512GB SSD, modular design, repairable and upgradeable",1399,Framework,sustainable,4.3,"Intel i5, 16GB RAM, 512GB SSD, 13.5 inch, modular ports"
+"Chromebook Pixel with Intel i3, 8GB RAM, 128GB SSD, Chrome OS, excellent for web-based work and students",399,Google,chromebook,4.1,"Intel i3, 8GB RAM, 128GB SSD, 12.3 inch touchscreen"

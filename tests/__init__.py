@@ -1,1 +1,1 @@
-# Multi-agent decision system - Test suite
+# Tests package for Multi-Agent Decision System

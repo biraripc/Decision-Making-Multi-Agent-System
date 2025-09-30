@@ -1,1 +1,1 @@
-# Multi-agent decision system - Agent implementations
+# Agents module

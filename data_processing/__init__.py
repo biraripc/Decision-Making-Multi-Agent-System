@@ -1,1 +1,1 @@
-# Multi-agent decision system - Data processing utilities
+# Data processing module

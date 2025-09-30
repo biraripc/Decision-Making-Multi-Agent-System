@@ -1,1 +1,1 @@
-# Multi-agent decision system - UI components
+# UI module

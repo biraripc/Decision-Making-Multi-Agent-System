@@ -1,0 +1,11 @@
+description,monthly_cost,location,size_sqft,commute_time,amenities
+"Downtown luxury apartment - modern high-rise, city views, walking distance to restaurants and entertainment",2800,Downtown,850,5 min walk,Gym/Pool/Concierge
+"Suburban family home - 3 bedroom house with yard, quiet neighborhood, good schools, family-friendly",2200,Suburbs,1800,25 min drive,Garage/Yard/Schools
+"Trendy loft in arts district - converted warehouse, exposed brick, creative community, unique character",2400,Arts District,1200,15 min bike,Studios/Galleries/Cafes
+"Beachside condo - ocean views, resort-style living, vacation rental potential, higher maintenance costs",3200,Beachfront,1100,30 min drive,Beach/Pool/Resort amenities
+"Affordable studio apartment - budget-friendly, basic amenities, good for young professionals starting out",1400,Mid-town,500,20 min transit,Basic/Laundry/Security
+"Historic brownstone - classic architecture, character details, established neighborhood, renovation potential",2600,Historic District,1600,18 min drive,Character/History/Walkable
+"New construction townhome - modern amenities, energy efficient, low maintenance, planned community",2500,New Development,1500,22 min drive,Modern/Efficient/Community
+"Rural farmhouse - large property, privacy, nature access, self-sufficient living, longer commute",1800,Rural,2200,45 min drive,Land/Privacy/Nature
+"Co-living space - shared amenities, built-in community, flexible lease terms, all-inclusive pricing",1900,Urban,600,12 min transit,Community/Flexible/Inclusive
+"Senior-friendly apartment - accessible design, on-site services, social activities, healthcare proximity",2000,Residential,900,15 min drive,Accessible/Services/Healthcare

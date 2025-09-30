@@ -1,1 +1,0 @@
-# Multi-agent decision system - Configuration management

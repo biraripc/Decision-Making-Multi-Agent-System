@@ -1,0 +1,11 @@
+description,expected_return,risk_level,minimum_investment,category,liquidity
+"S&P 500 Index Fund - diversified exposure to 500 largest US companies, low fees, historically strong long-term returns",8.5,Medium,100,stocks,High
+"High-yield savings account - FDIC insured, guaranteed returns, perfect for emergency fund, no market risk",4.2,Very Low,1,savings,Very High
+"Real Estate Investment Trust (REIT) - exposure to commercial real estate, monthly dividends, inflation hedge",7.8,Medium-High,1000,real_estate,Medium
+"Treasury Bonds - government-backed security, stable income, low risk, good for conservative portfolios",4.8,Low,100,bonds,High
+"Corporate Bonds - higher yield than treasuries, moderate risk, regular interest payments, credit risk involved",6.2,Medium,1000,bonds,Medium
+"Gold ETF - precious metals exposure, inflation hedge, portfolio diversification, volatile but stable long-term",5.5,Medium,50,commodities,High
+"Cryptocurrency (Bitcoin) - high growth potential, very volatile, digital asset, speculative investment",15.2,Very High,10,crypto,High
+"Dividend Growth Stocks - established companies with growing dividends, income plus growth potential",9.1,Medium-High,100,stocks,High
+"Certificate of Deposit (CD) - guaranteed return, FDIC insured, fixed term, penalty for early withdrawal",5.1,Very Low,500,savings,Low
+"Peer-to-peer lending - higher returns than traditional savings, credit risk, monthly payments",7.3,High,25,alternative,Medium
